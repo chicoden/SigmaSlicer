@@ -1,2 +1,4 @@
-﻿  slice.c
+﻿  printer.c
+  slicer.c
+  Generating Code...
   SigmaSlicer.vcxproj -> C:\Users\Pytho\Projects\SigmaSlicer\x64\Debug\SigmaSlicer.exe
