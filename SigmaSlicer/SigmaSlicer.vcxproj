@@ -128,14 +128,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="output.gcode" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="include\printer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\printer.c" />
-    <ClCompile Include="src\slicer.c" />
+    <ClCompile Include="src\main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tests\models\rocket_fins.stl" />
+    <None Include="tests\output.gcode" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

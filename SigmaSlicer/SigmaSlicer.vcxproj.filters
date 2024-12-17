@@ -15,11 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="output.gcode">
-      <Filter>Source Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="include\printer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -28,8 +23,16 @@
     <ClCompile Include="src\printer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\slicer.c">
+    <ClCompile Include="src\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tests\models\rocket_fins.stl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\output.gcode">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

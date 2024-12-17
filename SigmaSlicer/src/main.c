@@ -20,7 +20,7 @@ int parseCommandLine(int argc, char* argv[], char** inputPath, char** outputPath
 
 int main(int argc, char* argv[]) {
     char* inputPath = NULL;
-    char* outputPath = "output.gcode";
+    char* outputPath = "tests/output.gcode";
     if (!parseCommandLine(argc, argv, &inputPath, &outputPath)) {
         printf("Invalid command line arguments\n");
         return 0;
